@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "cm": "git-cz",
-    "flow": "flow status"
+    "flow": "flow status",
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,10 @@
     "flow-bin": "^0.98.1",
     "jest": "^24.8.0",
     "react": "^16.8.6",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
   },
   "config": {
     "commitizen": {
