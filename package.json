@@ -7,8 +7,8 @@
     "test": "jest",
     "cm": "git-cz",
     "flow": "flow status",
-    "build": "rollup -c rollup.config.js",
-    "server": "npm run build && http-server ./built"
+    "build": "rm -fr ./dist && rollup -c rollup.config.js",
+    "start": "npm run build && http-server ./dist"
   },
   "repository": {
     "type": "git",

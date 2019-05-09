@@ -1,6 +1,6 @@
 import * as React from "react";
 import renderer from 'react-test-renderer';
-import createText from "../src/createText"
+import createText from "../src"
 
 const Text = createText(React);
 

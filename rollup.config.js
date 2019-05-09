@@ -2,12 +2,10 @@ import babel from "rollup-plugin-babel";
 import {uglify} from "rollup-plugin-uglify";
 
 export default {
-    input: 'src/createText.js',
+    input: 'src/index.js',
     output: {
-        dir: "./built",
         format: "amd",
-        filename: "bundle.js",
-        // name:"createText"
+        file: "./dist/bundle.js"
     },
     plugins: [
         babel({
