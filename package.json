@@ -40,6 +40,9 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-push": "npm run flow && npm test"
     }
   },
   "peerDependencies": {
