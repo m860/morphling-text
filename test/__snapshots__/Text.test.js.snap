@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <Text/> 1`] = `
+<div
+  style={
+    Object {
+      "height": 100,
+      "width": 100,
+    }
+  }
+>
+  hello
+</div>
+`;
+
+exports[`render <Text/> with fontSize less than 12 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": 6,
+      "height": 100,
+      "transform": "scale(0.5)",
+      "width": 100,
+    }
+  }
+>
+  hello
+</div>
+`;

@@ -1,5 +1,5 @@
 type Props = {
-    text?: string,
+    children?: string,
     style?: Object,
     width: number,
     height: number,
@@ -24,7 +24,7 @@ export default function (React) {
                 }
             }
         }
-        return <div style={style}>{props.text}</div>
+        return <div style={style}>{props.children}</div>
     }
 
     Text.defaultProps = {
