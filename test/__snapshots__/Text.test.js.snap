@@ -19,11 +19,19 @@ exports[`render <Text/> with fontSize less than 12 1`] = `
     Object {
       "fontSize": 6,
       "height": 100,
-      "transform": "scale(0.5)",
       "width": 100,
     }
   }
 >
-  hello
+  <div
+    style={
+      Object {
+        "fontSize": 12,
+        "transform": "scale(0.5)",
+      }
+    }
+  >
+    hello
+  </div>
 </div>
 `;
