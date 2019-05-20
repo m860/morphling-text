@@ -38,7 +38,14 @@ export default function (React) {
      * 可编辑的属性
      */
     Text.getProperties = function () {
-        return [];
+        return [{
+            name: "text",
+            label: "文本",
+            component: {
+                name: "TextInput",
+                props: {}
+            }
+        }];
     };
 
     return React.memo(Text);
