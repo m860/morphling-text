@@ -8,7 +8,7 @@
     "cm": "git-cz",
     "flow": "flow status",
     "build": "rm -fr ./dist && rollup -c rollup.config.js",
-    "start": "npm run build && http-server ./dist"
+    "start": "npm run build && http-server ./dist -p 5000"
   },
   "repository": {
     "type": "git",
